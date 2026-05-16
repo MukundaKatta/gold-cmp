@@ -1,0 +1,15 @@
+[package]
+name = "gold-cmp"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Pairwise comparison runner for gold-set LLM evals: A vs B winner counting, statistical-significance helper, win-rate summary. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/gold-cmp"
+homepage = "https://github.com/MukundaKatta/gold-cmp"
+documentation = "https://docs.rs/gold-cmp"
+readme = "README.md"
+keywords = ["eval", "ab-test", "llm", "gold-set", "comparison"]
+categories = ["development-tools::testing", "science"]
+exclude = [".github/*", "target/*"]
